@@ -10,12 +10,17 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 ul {
     list-style: none;
 }
 
 .h-col li {
     display: inline-block;
+    vertical-align: middle;
     margin: 0 2em;
 }
 
@@ -60,15 +65,13 @@ a:hover {
     color: black;
 }
 
-.col-logo {
-    width: 20%;
-    height: 80px;
-    line-height: 80px;
-    background-color: chartreuse;
+.logo {
+    width: 100%;
+    vertical-align: middle;
 }
 
 .h-col {
-    width: 40%;
+    width: 50%;
     height: 80px;
     line-height: 80px;
 }
