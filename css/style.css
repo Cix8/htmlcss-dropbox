@@ -155,8 +155,13 @@ a:hover {
     /* background-color: red; */
 }
 
+.dropbox-plans {
+    margin-bottom: 2.5em;
+}
+
 .dropbox-plans .col {
     width: calc((100% - 160px) / 3);
+    margin-bottom: 2.5em;
     /* TEST */
     /* background-color: orange; */
 }
@@ -186,14 +191,15 @@ a:hover {
     font-weight: bold;
 }
 
-.col-head {
+.col-head,
+.f-head {
     width: 100%;
     height: 40px;
     border: 1px solid black;
     text-align: center;
     line-height: 40px;
-    /* TEST */
-    /* background-color: green; */
+    /* TEST
+    background-color: green; */
 }
 
 .col-body {
@@ -261,7 +267,7 @@ a:hover {
 }
 
 .btn-container > span a {
-    margin-left: .2em;
+    margin-left: .3em;
 }
 
 .product-container hr {
@@ -283,4 +289,40 @@ a:hover {
 
 .highlights li i {
     color: #0061ff;
+}
+
+.dropbox-plans_footer {
+    width: 100%;
+}
+
+.f-body {
+    padding: 3%;
+    border-top: 0;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.f-body .sub-col-left {
+    width: 65%;
+}
+
+.f-body .sub-col-right {
+    width: 35%;
+}
+
+.sub-col-left h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.sub-col-left h4 {
+    margin-bottom: 2em;
+}
+
+.sub-col-left p {
+    font-size: .7em;
 }
