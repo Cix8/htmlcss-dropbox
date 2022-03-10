@@ -11,7 +11,7 @@ html {
 }
 
 /* UTILITY */
-clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -34,12 +34,11 @@ clearfix::after {
     height: 700px;
     padding-top: 6em;
     background-color: lightskyblue;
-    margin-bottom: 10em;
 }
 
 .b-general-container {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
 }
 
 .banner-title {
