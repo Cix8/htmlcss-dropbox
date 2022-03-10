@@ -8,6 +8,7 @@
 /* COMMON */
 html {
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 img {
@@ -28,6 +29,16 @@ a:hover {
     text-decoration: underline;
 }
 
+.reverse-hover {
+    display: inline-block;
+    color: #0966ff;
+    text-decoration: underline;
+}
+
+.reverse-hover:hover {
+    text-decoration: none;
+}
+
 /* UTILITY */
 .clearfix::after {
     content: "";
@@ -42,6 +53,12 @@ a:hover {
 .btn {
     display: inline-block;
     line-height: normal;
+}
+
+.btn-block {
+    display: block;
+    text-align: center;
+    font-size: .9em;
 }
 
 .btn-blue {
@@ -181,7 +198,7 @@ a:hover {
 
 .col-body {
     width: 100%;
-    height: 760px;
+    height: 800px;
     padding: 2em 0;
     border-top: 0;
     border-right: 1px;
@@ -215,14 +232,55 @@ a:hover {
     color: #84919c;
 }
 
-.product-features {
+
+.features-list {
     font-size: .7em;
+    margin-bottom: 3em;
 }
 
-.product-features div {
+.features-list li {
     margin-bottom: 1.5em;
 }
 
-.product-features i {
+.features-list i {
     margin-right: .2em;
+}
+
+.features-list li:first-child i {
+    color: #0061ff;
+}
+
+.btn-container .btn-block {
+    margin-bottom: 1.5em;
+}
+
+.btn-container > span {
+    display: inline-block;
+    font-size: .7em;
+    margin-bottom: 2.5em;
+}
+
+.btn-container > span a {
+    margin-left: .2em;
+}
+
+.product-container hr {
+    width: 15%;
+}
+
+.highlights {
+    margin-top: 2.5em;
+}
+
+.highlights h4 {
+    font-size: .9em;
+}
+
+.highlights li {
+    margin: 1.5em 0;
+    font-size: .7em;
+}
+
+.highlights li i {
+    color: #0061ff;
 }
