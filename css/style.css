@@ -41,7 +41,7 @@ a:hover {
     text-decoration: underline;
 }
 
-#main h2 {
+main h2 {
     margin-bottom: 1.5em;
     font-size: 2.5em;
 }
@@ -406,6 +406,8 @@ a:hover {
 
 .reviews-col-center {
     width: 40%;
+    padding: 3em;
+    overflow: scroll;
     /* TEST */
     height: 400px;
     background-color: #f5f5f5;
@@ -466,6 +468,46 @@ a:hover {
     background-color: #ffd830;
 }
 
-.img-box svg {
-    width: 100%;
+.company-reviews {
+    margin-bottom: 2em;
+}
+
+.reviews-col-center .img-cont {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 2em;
+}
+
+hr {
+    width: 10%;
+}
+
+.reviews-col-center .text-cont p {
+    margin: 2em 0;
+}
+
+.free-trial {
+    padding: 8em 0;
+    background-color: #b4d0e7;
+}
+
+.free-trial .center {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.large-col {
+    width: 70%;
+    padding-right: 5em;
+    color: #752457;
+}
+
+.small-col {
+    width: 30%;
+    /* TEST */
+    background-color: white;
+}
+
+.large-col h2 {
+    margin-bottom: 0;
 }
