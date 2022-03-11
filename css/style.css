@@ -29,6 +29,11 @@ a:hover {
     text-decoration: underline;
 }
 
+#main h2 {
+    margin-bottom: 1.5em;
+    font-size: 2.5em;
+}
+
 #main h3 {
     font-size: 1.5em;
     margin-bottom: 1.5em;
@@ -185,11 +190,6 @@ a:hover {
 
 .dropbox-plans .col.center {
     margin: 0 80px;
-}
-
-.dropbox-plans h2 {
-    margin-bottom: 1em;
-    font-size: 2.5em;
 }
 
 .radio-btns {
@@ -361,4 +361,20 @@ a:hover {
 .btn-border {
     border: 2px solid black;
     background-color: whitesmoke;
+}
+
+.dropbox-operations .row {
+    margin-bottom: 5em;
+}
+
+.row .op-col:nth-child(2) {
+    margin: 0 3%;
+}
+
+.row .op-col {
+    width: calc(94%/3)
+}
+
+.row-text p span {
+    text-decoration: underline;
 }
