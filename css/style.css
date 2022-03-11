@@ -22,11 +22,16 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
-    font-weight: bold;
+    font-weight: bold; /* UTILIZZATA SOLO PER I LINK NON .BTN */
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+#main h3 {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .reverse-hover {
@@ -62,10 +67,13 @@ a:hover {
 }
 
 .btn-blue {
-    padding: .5em 1em;
-    font-weight: normal;
     color: white;
     background-color: #0061ff;
+}
+
+.btn-structure {
+    padding: .5em 1em;
+    font-weight: normal;
 }
 
 /* HEADER */
@@ -165,7 +173,7 @@ a:hover {
 }
 
 .dropbox-plans {
-    margin-bottom: 2.5em;
+    margin-bottom: 10em;
 }
 
 .dropbox-plans .col {
@@ -232,11 +240,6 @@ a:hover {
     margin-bottom: 2.5em;
 }
 
-.product-options h3 {
-    font-size: 1.5em;
-    margin-bottom: 1.5em;
-}
-
 .product-options strong {
     display: block;
     margin-bottom: 1.5em;
@@ -269,16 +272,15 @@ a:hover {
     margin-bottom: 2.5em;
 }
 
-.btn-container .btn-block {
+.col-body .btn-container .btn-block {
     margin-bottom: 1.5em;
 }
 
-.btn-container > span {
-    display: inline-block;
+.col-body .btn-container > span {
     font-size: .7em;
 }
 
-.btn-container > span a {
+.col-body .btn-container > span a {
     margin-left: .3em;
 }
 
@@ -337,4 +339,26 @@ a:hover {
 
 .sub-col-left p {
     font-size: .7em;
+}
+
+.partners-container {
+    margin-bottom: 5em;
+}
+
+.column-img,
+.column-text {
+    width: 50%;
+}
+
+.column-text {
+    padding: 2em;
+}
+
+.column-text p {
+    margin-bottom: 1.5em;
+}
+
+.btn-border {
+    border: 2px solid black;
+    background-color: whitesmoke;
 }
