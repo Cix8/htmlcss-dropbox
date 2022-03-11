@@ -378,3 +378,9 @@ a:hover {
 .row-text p span {
     text-decoration: underline;
 }
+
+.reviews .title {
+    width: 65%;
+    margin: 0 auto 4em auto;
+    padding-right: 28%;
+}
