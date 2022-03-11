@@ -1,3 +1,15 @@
+/*  BACKGROUND-COLORS_LOGOS
+        #a2d39b;
+        #61082b;
+        #0093ce;
+        #ff1c1c;
+        #d5001f;
+        #b4d0e7;
+        #0d2481;
+        #ffd830;
+    BACKGROUND-COLORS_LOGOS
+*/
+
 /* RESET */
 * {
     margin: 0;
@@ -383,4 +395,73 @@ a:hover {
     width: 65%;
     margin: 0 auto 4em auto;
     padding-right: 28%;
+}
+
+.reviews-col {
+    width: 30%;
+    /* TEST */
+    background-color: green;
+    height: 400px;
+}
+
+.reviews-col-center {
+    width: 40%;
+    /* TEST */
+    height: 400px;
+    background-color: #f5f5f5;
+}
+
+.logos-row {
+    height: 50%;
+}
+
+.logos-col {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* TEST */
+    background-color: brown;
+}
+
+.img-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.bg-green {
+    background-color: #a2d39b;
+    border: 10px solid #daeed9;
+}
+
+.bg-brown {
+    background-color: #61082b;
+}
+
+.bg-azure {
+    background-color: #0093ce;
+}
+
+.bg-red {
+    background-color: #ff1c1c;
+}
+
+.bg-crimson {
+    background-color: #d5001f;
+}
+
+.bg-turquoise {
+    background-color: #b4d0e7;
+}
+
+.bg-blue {
+    background-color: #0d2481;
+}
+
+.bg-yellow {
+    background-color: #ffd830;
 }
