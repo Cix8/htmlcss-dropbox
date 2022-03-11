@@ -465,3 +465,7 @@ a:hover {
 .bg-yellow {
     background-color: #ffd830;
 }
+
+.img-box svg {
+    width: 100%;
+}
