@@ -102,14 +102,13 @@ a:hover {
 /* BANNER */
 .banner {
     width: 100%;
-    height: 680px; /* oppure 90vh */
-    padding: 4em 0;
-    background-color: lightskyblue;
+    padding: 5em 0;
+    background-color: #b4d0e7;
 }
 
 .b-general-container {
     width: 80%;
-    margin: 0 auto 2em auto;
+    margin: 0 auto;
 }
 
 .banner-title {
@@ -125,6 +124,12 @@ a:hover {
     width: 30%;
 }
 
+.banner-text p,
+.banner-text span {
+    font-size: .9em;
+    font-weight: bold;
+}
+
 .banner-text p {
     margin-bottom: 1.5em;
 }
@@ -135,6 +140,10 @@ a:hover {
 
 .banner i:hover {
     color: blue;
+}
+
+.banner .clearfix {
+    margin-bottom: -170px;
 }
 
 .banner-text .icon-container i {
@@ -149,10 +158,10 @@ a:hover {
 /* MAIN */
 .main-content {
     width: 65%;
-    height: 3000px;
-    margin: 10em auto;
+    margin: 13em auto;
     /* TEST */
     /* background-color: red; */
+    /* height: 3000px; */
 }
 
 .dropbox-plans {
@@ -204,7 +213,7 @@ a:hover {
 
 .col-body {
     width: 100%;
-    height: 800px;
+    min-height: 800px;
     padding: 2em 0;
     border-top: 0;
     border-right: 1px;
@@ -256,6 +265,10 @@ a:hover {
     color: #0061ff;
 }
 
+.dropbox-plans .col-body .btn-container {
+    margin-bottom: 2.5em;
+}
+
 .btn-container .btn-block {
     margin-bottom: 1.5em;
 }
@@ -263,7 +276,6 @@ a:hover {
 .btn-container > span {
     display: inline-block;
     font-size: .7em;
-    margin-bottom: 2.5em;
 }
 
 .btn-container > span a {
