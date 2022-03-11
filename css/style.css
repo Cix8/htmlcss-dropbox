@@ -511,3 +511,7 @@ hr {
 .large-col h2 {
     margin-bottom: 0;
 }
+
+.img-box img {
+    filter: invert(100);
+}
