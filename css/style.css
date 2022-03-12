@@ -515,13 +515,17 @@ hr {
     margin-bottom: 0;
 }
 
+.main-questions {
+    padding: 8em 0;
+}
+
 .main-questions .title{
     margin-bottom: 3.5em;
 }
 
 .questions-container {
     width: 65%;
-    margin: 8em auto;
+    margin: 0 auto;
 }
 
 .questions-list li {
@@ -546,4 +550,54 @@ hr {
 
 .questions-list li:hover .answer {
     display: inline-block;
+}
+
+.footer {
+    padding: 7em 0 2em 0;
+    background-color: #000000;
+}
+
+.footer-contents {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-lists {
+    margin-bottom: 10em;
+}
+
+.footer-lists ul {
+    display: inline-block;
+    margin: 0 2.5em;
+    vertical-align: top;
+}
+
+.footer-lists ul:first-child {
+    margin-left: 0;
+}
+
+.footer-lists ul:last-child {
+    margin-right: 0;
+}
+
+.footer-lists li {
+    margin-bottom: 1em;
+    color: white;
+}
+
+.footer-lists .list-title {
+    margin-bottom: 1.5em;
+}
+
+.list-title h4 {
+    font-size: 1.3em;
+}
+
+.footer-lists a {
+    font-weight: 450;
+}
+
+.language-contents {
+    margin: 2.5em 0;
+    color: grey;
 }
