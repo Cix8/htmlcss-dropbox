@@ -46,7 +46,7 @@ main h2 {
     font-size: 2.5em;
 }
 
-#main h3 {
+main h3 {
     font-size: 1.5em;
     margin-bottom: 1.5em;
 }
@@ -435,6 +435,10 @@ main h2 {
     vertical-align: middle;
 }
 
+.img-box img {
+    filter: invert(100);
+}
+
 .bg-green {
     background-color: #a2d39b;
     border: 10px solid #daeed9;
@@ -498,13 +502,12 @@ hr {
 
 .large-col {
     width: 70%;
-    padding-right: 5em;
+    padding-right: 10em;
     color: #752457;
 }
 
 .small-col {
     width: 30%;
-    /* TEST */
     background-color: white;
 }
 
@@ -512,6 +515,35 @@ hr {
     margin-bottom: 0;
 }
 
-.img-box img {
-    filter: invert(100);
+.main-questions .title{
+    margin-bottom: 3.5em;
+}
+
+.questions-container {
+    width: 65%;
+    margin: 8em auto;
+}
+
+.questions-list li {
+    position: relative;
+    padding: 2em 0;
+    border-top: 1px solid black;
+}
+
+.questions-list li .icon-container {
+    position: absolute;
+    right: 2%;
+}
+
+.questions-list li:last-child {
+    border-bottom: 1px solid black;
+}
+
+.questions-list .answer {
+    margin-top: 2em;
+    display: none;
+}
+
+.questions-list li:hover .answer {
+    display: inline-block;
 }
