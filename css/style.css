@@ -545,7 +545,8 @@ hr {
 
 .questions-list li .icon-container {
     position: absolute;
-    right: 2%;
+    top: 2em;
+    right: 1em;
 }
 
 .questions-list li:last-child {
