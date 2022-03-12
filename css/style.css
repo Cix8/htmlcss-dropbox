@@ -379,6 +379,15 @@ main h3 {
     margin-bottom: 5em;
 }
 
+.dropbox-operations a {
+    color: inherit;
+    font-weight: normal;
+}
+
+.dropbox-operations a:hover {
+    color: #0966ff;
+}
+
 .row .op-col:nth-child(2) {
     margin: 0 3%;
 }
