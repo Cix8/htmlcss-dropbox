@@ -113,7 +113,7 @@ main h3 {
     line-height: 80px;
 }
 
-.h-col li {
+.menu-list > li {
     display: inline-block;
     vertical-align: middle;
     margin: 0 2em;
@@ -129,16 +129,43 @@ main h3 {
     text-align: right;
 }
 
-.h-col li:hover {
+.h-col li:not(.sub-menu-li):hover {
     border-bottom: 2px solid blue;
 }
 
-.h-col.left li:first-child:hover  {
+.h-col.left li:not(.sub-menu-li):first-child:hover  {
     border-bottom: 2px solid transparent;
 }
 
-.h-col.right li:last-child:hover {
+.h-col.right li:not(.sub-menu-li):last-child:hover {
     border-bottom: 2px solid transparent;
+}
+
+.sub-menu-container {
+    position: relative;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    text-align: left;
+}
+
+.sub-menu li {
+    font-size: .8em;
+    padding: .3em 3em;
+    line-height: 50px;
+    background-color: #ffffff;
+    display: none;
+}
+
+.sub-menu-container:hover .sub-menu li {
+    display: block;
+}
+
+.sub-menu li:hover {
+    text-decoration: underline;
 }
 
 /* BANNER */
